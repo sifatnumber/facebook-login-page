@@ -1,0 +1,88 @@
+
+.header{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	overflow: hidden;
+	background-color: #3b5998;
+}
+
+.fb_logo{
+	width: 60%;
+	float: left;
+	border: 1px solid red;
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+	font-color: white;
+	box-sizing: border-box;
+	color: white;
+}
+
+.login{
+	width: 40%;
+	float: right;
+	border: 1px solid green;
+	box-sizing: border-box;
+	border: 2px solid black;
+}
+
+.login email{
+	float: left;
+	width: 20%;
+}
+.login password{
+	float: right;
+	width: 20%;
+}
+
+.main{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	clear: both;
+	overflow: hidden;
+	background-color: #f7f7f7;
+}
+
+.box1{
+	width: 60%;
+	float: left;
+	box-sizing: border-box;
+	border: 1px solid red;
+}
+
+.box2{
+	width: 40%;
+	float: right;
+	box-sizing: border-box;
+	border: 1px solid red;
+}
+
+.optional{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	clear: both;
+	overflow: hidden;
+	background-color: #dfe3ee;
+}
+
+.box3{
+	width: 60%;
+	float: left;
+	box-sizing: border-box;
+	border: 1px solid black;
+	height: 230px;
+}
+
+.box4{
+	width: 40%;
+	float: right;
+	box-sizing: border-box;
+	border: 1px solid red;
+}
+
+.footer{
+	clear: both;
+}
