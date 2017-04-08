@@ -1,3 +1,7 @@
+.body{
+	margin: 0;
+	padding: 0;
+}
 
 .header{
 	margin: 0;
@@ -8,34 +12,38 @@
 }
 
 .fb_logo{
-	width: 60%;
+	width: 58%;
 	float: left;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	text-align: center;
 	font-size: 50px;
 	font-weight: bold;
 	font-color: white;
 	box-sizing: border-box;
 	color: white;
+	padding-top: 20px;
+	padding-left: 50px;
 }
 
 .login{
-	width: 40%;
+	width: 42%;
 	float: right;
-	border: 1px solid green;
+	/*border: 1px solid green;*/
 	box-sizing: border-box;
-	border: 2px solid black;
+	/*border: 2px solid black;*/
 }
-
-.login email{
-	float: left;
-	width: 20%;
+.loginform{
+	/*font-size: 12px;*/
+	padding: 10px 0;
+	color: white;
 }
-.login password{
-	float: right;
-	width: 20%;
+.fbbutton{
+	color: white;
+	background-color: blue;
 }
-
+.forgotlink{
+	color: #cccccc;
+}
 .main{
 	margin: 0;
 	padding: 0;
@@ -46,18 +54,40 @@
 }
 
 .box1{
-	width: 60%;
+	width: 58%;
 	float: left;
 	box-sizing: border-box;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 }
-
+.box1 h3,img{
+	padding-left: 150px;
+	padding-top: 15px;
+}
+.box1 h3{
+	color: #415663;
+}
 .box2{
-	width: 40%;
+	width: 42%;
 	float: right;
 	box-sizing: border-box;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 }
+.box2 h1{
+	font-size: 36px;
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+.box2 p{
+	font-size: 18px;
+	margin-top: 0;
+}
+#signup input{
+	/*border: 1px solid #BDC7D8;*/
+	border-radius: 5px;
+	color: black;
+	padding: 10px;
+}
+
 
 .optional{
 	margin: 0;
@@ -69,20 +99,49 @@
 }
 
 .box3{
-	width: 60%;
+	width: 58%;
 	float: left;
 	box-sizing: border-box;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	height: 230px;
 }
 
 .box4{
-	width: 40%;
+	width: 42%;
 	float: right;
 	box-sizing: border-box;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 }
-
+.box4 select{
+	height: 30px;
+	display: inline;
+}
+a.dob{
+	font-size: 11px;
+	width: 10px;
+}
+#term{
+	font-size: 11px;
+	color: grey;
+}
+#button{
+	background-color: #68A254;
+    border: 1px solid black;
+    border-radius: 6px;
+    color: white;
+    padding: 8px 50px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    /*margin: 25px 2px;*/
+    cursor: pointer;
+    transition-duration: 0.4s;
+    font-weight: bold;
+}
+#celeb{
+	font-size: 14px;
+	color: grey;
+}
 .footer{
 	clear: both;
 }
