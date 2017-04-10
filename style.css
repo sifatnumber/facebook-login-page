@@ -1,4 +1,4 @@
-.body{
+body{
 	margin: 0;
 	padding: 0;
 }
@@ -16,14 +16,14 @@
 	width: 58%;
 	float: left;
 	/*border: 1px solid red;*/
-	text-align: center;
+	/*text-align: center;*/
 	font-size: 50px;
 	font-weight: bold;
 	font-color: white;
 	box-sizing: border-box;
 	color: white;
 	padding-top: 20px;
-	padding-right: 250px;
+	padding-left: 200px;
 }
 
 .login{
@@ -129,7 +129,7 @@ a.dob{
 #button{
 	background-color: #68A254;
     border: 1px solid black;
-    border-radius: 6px;
+    border-radius: 2px;
     color: white;
     padding: 8px 50px;
     text-align: center;
